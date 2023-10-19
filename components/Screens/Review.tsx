@@ -12,7 +12,12 @@ const Review = () => {
         <InfoBox name="Phone Number" value={data.phone_number} />
         <InfoBox name="Country" value={data.country} />
       </div>
-      <Button text="Complete" action={() => ""} />
+      <Button
+        text="Complete"
+        action={() => {
+          // do nothing.
+        }}
+      />
     </div>
   );
 };
